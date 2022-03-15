@@ -1,5 +1,6 @@
 body {
     padding: 5vh;
+    padding-top: 3vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: black;
@@ -45,6 +46,17 @@ h2 {
     font-weight: 400;
 }
 
+.homelink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: fit-content;
+}
+
+.homelink:hover {
+    box-shadow: none;
+}
+
 .text-1 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -52,13 +64,20 @@ h2 {
 }
 
 .avatar {
-    width: 6rem;
-    height: 6rem;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
     background-image: url(images/egor.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    margin-bottom: 1rem;
+}
+
+.avatar.small {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
 }
 
 .icon {
@@ -71,6 +90,25 @@ h2 {
 
 .icon:hover {
     box-shadow: none;
+}
+
+.artlink {
+    margin-top: 1rem;
+}
+
+.artlink div {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(images/icons/pencil.svg);
+    background-position: center;
+}
+
+.artlink:hover {
+    box-shadow: none;
+}
+
+.artlink:hover div {
+    background-image: url(images/icons/pencil-black.svg);
 }
 
 .icon.me {
