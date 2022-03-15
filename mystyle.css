@@ -39,6 +39,12 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 .text-1 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -52,7 +58,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .icon {
@@ -158,12 +164,6 @@ h1 {
     margin-top: 3rem;
 }
 
-@media only screen and (max-width: 800px) {
-    .image-gallery {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
-}
-
 .thumb-image:hover {
     box-shadow: none;
 }
@@ -176,4 +176,28 @@ h1 {
     width: 100%;
     border-radius: 4px;
     transition: transform 0.3s;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 6vw;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .text-1 {
+        font-size: 1.25rem;
+    }
+
+    .block-link a {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
 }
