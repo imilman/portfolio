@@ -8,14 +8,17 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    max-height: -webkit-fill-available;
     overflow: scroll;
     overscroll-behavior: contain;
 }
 
 .slbOverlay {
+    box-sizing: inherit;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    max-height: -webkit-fill-available;
     z-index: 2000;
     background-color: #000;
     opacity: 0.85;
