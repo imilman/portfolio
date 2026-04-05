@@ -21,7 +21,7 @@ body {
     background: #FFE61B;
 }
 
-h3 {
+h2 {
     position: relative;
     margin-top: 3em;
     margin-bottom: 0;
@@ -84,8 +84,8 @@ a:visited {
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     vertical-align: bottom;
 }
 
@@ -172,5 +172,9 @@ footer a {
 
     .slbContentOuter {
         padding: 0;
+    }
+    .photo {
+        display: block;
+        margin: 0 auto;
     }
 }
