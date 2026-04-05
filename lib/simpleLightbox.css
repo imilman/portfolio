@@ -6,13 +6,20 @@
     right: 0;
     bottom: 0;
     left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    overscroll-behavior: contain;
 }
 
 .slbOverlay {
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
     z-index: 2000;
     background-color: #000;
     opacity: 0.85;
+
     -webkit-animation: slbOverlay 0.35s;
     -moz-animation: slbOverlay 0.35s;
     animation: slbOverlay 0.35s;
