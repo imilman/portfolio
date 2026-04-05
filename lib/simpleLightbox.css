@@ -7,7 +7,7 @@
     bottom: 0;
     left: 0;
     width: 100vw;
-    height: 100dvh;
+    height: 100lvh;
     height: -webkit-fill-available;
     overflow: scroll;
     overscroll-behavior: contain;
@@ -17,7 +17,7 @@
     overflow: hidden;
     width: 100vw;
     height: 100vh;
-    height: 100dvh;
+    height: 100lvh;
     height: -webkit-fill-available;
     z-index: 2000;
     background-color: #000;
